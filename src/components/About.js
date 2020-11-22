@@ -1,9 +1,9 @@
-import React from "react";
+import React from 'react'
 
 const About = () => {
   return (
     <div className='about-section container p-5 mt-5' id='about'>
-      <h3 className='text-primary text-title'>About</h3>
+      <h3 className='text-primary pt-2'>About</h3>
       <div className='row'>
         <div className='col-md-7'>
           <p>Hello! I'm Ahmed, a software engineer based in Mogadishu.</p>
@@ -13,29 +13,33 @@ const About = () => {
             build products that provide pixel-perfect, performance experiences.
           </p>
           <p>
-            Shortly after graduated University, I started freelancing. I work on
-            a wide variety of interesting and meaningful projects on a daily
-            basis.
+            Shortly after graduated University, I started freelancing on a wide
+            variety of interesting and meaningful projects on a daily basis.
           </p>
           <p>Here are a few technologies I've been working with recently:</p>
-          <p className='d-flex '>
-            <p className='mr-5'>
-              <i className='fa fa-arrow-circle-right '></i> JavaScript (ES6+)
-              <br />
-              <i className='fa fa-arrow-circle-right '></i> React
-              <br />
-              <i className='fa fa-arrow-circle-right '></i> Node.js
-              <br />
-            </p>
-            <p className='mr-5'>
-              <i className='fa fa-arrow-circle-right '></i> Python
-              <br />
-              <i className='fa fa-arrow-circle-right '></i> Django
-              <br />
-              <i className='fa fa-arrow-circle-right '></i> HTML & (S)CSS
-              <br />
-            </p>
-          </p>
+
+          <div className='row'>
+            <div className='col-12 col-md-6 col-lg-6 col-sm-6'>
+              <p className='mr-5'>
+                <i className='fa fa-arrow-circle-right '></i> JavaScript (ES6+)
+                <br />
+                <i className='fa fa-arrow-circle-right '></i> React
+                <br />
+                <i className='fa fa-arrow-circle-right '></i> Node.js
+                <br />
+              </p>
+            </div>
+            <div className='col-12 col-md-6 col-lg-6 col-sm-6'>
+              <p className='mr-5'>
+                <i className='fa fa-arrow-circle-right '></i> Python
+                <br />
+                <i className='fa fa-arrow-circle-right '></i> Django
+                <br />
+                <i className='fa fa-arrow-circle-right '></i> HTML & (S)CSS
+                <br />
+              </p>
+            </div>
+          </div>
         </div>
         <div className='col-md-5 text-center'>
           <img
@@ -46,7 +50,7 @@ const About = () => {
         </div>
       </div>
     </div>
-  );
-};
+  )
+}
 
-export default About;
+export default About

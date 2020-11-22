@@ -1,8 +1,8 @@
-@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
 /* @import url('https://fonts.googleapis.com/css2?family=Lato:wght@900&display=swap'); */
 
 body {
-  font-family: "Roboto", sans-serif;
+  font-family: 'Roboto', sans-serif;
   color: rgb(161, 161, 163);
 }
 
@@ -32,11 +32,14 @@ body {
 }
 
 .about-section {
-  font-family: "Roboto", sans-serif;
+  font-family: 'Roboto', sans-serif;
+}
+.about-section .fa {
+  color: #df691a;
 }
 .about-section img {
-  height: 70%;
-  width: auto;
+  width: 70%;
+  height: auto;
   border-radius: 20px;
   transition: transform 1.5s ease-in-out;
 }
@@ -55,7 +58,7 @@ body {
   width: 1.5em;
   height: 1.5em;
   vertical-align: middle;
-  content: "";
+  content: '';
   background: no-repeat center center;
   background-size: 100% 100%;
 }
@@ -68,12 +71,10 @@ body {
 .navbar-primary {
   background-color: #2b3e50;
 }
-.fa {
-  color: #df691a;
-}
+
 .footer-section .footer-title {
   color: #fff;
-  font-size: 50px;
+  /* font-size: 50px; */
   font-weight: bolder;
 }
 .footer-section .footer-icon {
@@ -89,8 +90,8 @@ body {
   opacity: 0.6;
 }
 .sticky-contact-left::after {
-  content: "";
-  background: rgb(128, 125, 125);
+  content: '';
+  background: #df691a;
   height: 1px;
   width: 120px;
   position: absolute;
@@ -108,8 +109,8 @@ body {
   opacity: 0.6;
 }
 .sticky-contact-right::after {
-  content: "";
-  background: rgb(128, 125, 125);
+  content: '';
+  background: #df691a;
   height: 1px;
   width: 120px;
   position: absolute;
@@ -118,6 +119,46 @@ body {
   transform: translateY(-50%);
 }
 
+.sticky-contact-right a:hover {
+  text-decoration: none;
+}
+
 .sticky-contact-left .fab {
   font-size: larger;
+}
+.work-section a {
+  text-decoration: none;
+}
+
+.work-section .work-icons {
+  font-size: 15px;
+}
+.work-section .fab:hover,
+.fa:hover,
+.fas:hover {
+  color: rgb(128, 125, 125);
+}
+
+.work-section .card p {
+  font-size: medium;
+}
+.work-section .card {
+  border-radius: 0 20px 20px 20px;
+}
+.work-section img {
+  border-radius: 0 20px 20px 20px;
+}
+
+@media only screen and (max-width: 780px) {
+  .hero-section h1 {
+    color: #fff;
+    margin: 15px 0;
+    font-size: 50px;
+    font-weight: bolder;
+  }
+  .hero-section h3 {
+    margin: 15px 0;
+    font-size: 45px;
+    font-weight: bolder;
+  }
 }
