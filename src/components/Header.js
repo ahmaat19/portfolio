@@ -1,11 +1,11 @@
-import React from 'react'
+import React from 'react';
 
 const Header = () => {
   return (
     <>
-      <nav class='navbar navbar-expand-lg navbar-primary  sticky-top py-2'>
-        <div class='container'>
-          <a class='navbar-brand' href='#'>
+      <nav className='navbar navbar-expand-lg navbar-primary  sticky-top py-2'>
+        <div className='container'>
+          <a className='navbar-brand' href='#'>
             {/* <img
               src='https://v5.getbootstrap.com/docs/5.0/assets/brand/bootstrap-logo.svg'
               alt=''
@@ -15,7 +15,7 @@ const Header = () => {
             AHMED
           </a>
           <button
-            class='navbar-toggler'
+            className='navbar-toggler'
             type='button'
             data-toggle='collapse'
             data-target='#navbarNav'
@@ -23,30 +23,34 @@ const Header = () => {
             aria-expanded='false'
             aria-label='Toggle navigation'
           >
-            <span class='navbar-toggler-icon'></span>
+            <span className='navbar-toggler-icon'></span>
           </button>
-          <div class='collapse navbar-collapse' id='navbarNav'>
-            <ul class='navbar-nav mx-auto'></ul>
-            <ul class='navbar-nav mx-right'>
-              <li class='nav-item'>
-                <a class='nav-link active' aria-current='page' href='#about'>
+          <div className='collapse navbar-collapse' id='navbarNav'>
+            <ul className='navbar-nav mx-auto'></ul>
+            <ul className='navbar-nav mx-right'>
+              <li className='nav-item'>
+                <a
+                  className='nav-link active'
+                  aria-current='page'
+                  href='#about'
+                >
                   About
                 </a>
               </li>
-              <li class='nav-item'>
-                <a class='nav-link' href='#work'>
+              <li className='nav-item'>
+                <a className='nav-link' href='#work'>
                   Work
                 </a>
               </li>
-              <li class='nav-item'>
-                <a class='nav-link' href='#contact'>
+              <li className='nav-item'>
+                <a className='nav-link' href='#contact'>
                   Contact
                 </a>
               </li>
-              <li class='nav-item'>
+              <li className='nav-item'>
                 <a
-                  class='btn btn-outline-primary rounded-pill'
-                  href='tell:+252615301507'
+                  className='btn btn-outline-primary rounded-pill'
+                  href='tel:+252615301507'
                 >
                   <i className='fa fa-phone'></i> +252 61 530 1507
                 </a>
@@ -73,7 +77,7 @@ const Header = () => {
         </a>
       </div>
     </>
-  )
-}
+  );
+};
 
-export default Header
+export default Header;

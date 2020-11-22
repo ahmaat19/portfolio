@@ -11,9 +11,9 @@ const Project = () => {
           <h6 className='text-primary'>Featured Project</h6>
           <h5 className='text-light font-weight-bold'>COVID-19 Tracker</h5>
 
-          <div class='card shadow-lg'>
-            <div class='card-body'>
-              <blockquote class='blockquote mb-0'>
+          <div className='card shadow-lg'>
+            <div className='card-body'>
+              <blockquote className='blockquote mb-0'>
                 <p>
                   This project is all about live COVID-19 Updates from all over
                   the world.
@@ -22,20 +22,20 @@ const Project = () => {
             </div>
           </div>
 
-          <div class='btn-group' role='group' aria-label='Basic example'>
-            <span type='button' class='btn text-primary btn-lg'>
+          <div className='btn-group' role='group' aria-label='Basic example'>
+            <span type='button' className='btn text-primary btn-lg'>
               <i className='fab fa-react'></i>{' '}
               <span className='text-muted work-icons'>React.js</span>
             </span>
-            <span type='button' class='btn text-primary btn-lg'>
+            <span type='button' className='btn text-primary btn-lg'>
               <i className='fab fa-bootstrap'></i>{' '}
               <span className='text-muted work-icons'>Bootstrap</span>
             </span>
           </div>
           <br />
 
-          <div class='btn-group' role='group' aria-label='Basic example'>
-            <span type='button' class='btn text-primary btn-lg'>
+          <div className='btn-group' role='group' aria-label='Basic example'>
+            <span type='button' className='btn text-primary btn-lg'>
               <a
                 href='https://github.com/ahmaat19/covid-19-tracker'
                 target='blank'
@@ -45,7 +45,7 @@ const Project = () => {
               </a>
             </span>
 
-            <span type='button' class='btn text-primary btn-lg'>
+            <span type='button' className='btn text-primary btn-lg'>
               <a href='https://ahmaat19covid19.herokuapp.com/' target='blank'>
                 <i className='fas fa-external-link-alt'></i>{' '}
                 <span className='text-muted work-icons'>Live Demo</span>
@@ -60,9 +60,9 @@ const Project = () => {
           <h6 className='text-primary'>Featured Project</h6>
           <h5 className='text-light font-weight-bold'>COVID-19 Tracker</h5>
 
-          <div class='card shadow-lg'>
-            <div class='card-body'>
-              <blockquote class='blockquote mb-0'>
+          <div className='card shadow-lg'>
+            <div className='card-body'>
+              <blockquote className='blockquote mb-0'>
                 <p>
                   This project is all about live COVID-19 Updates from all over
                   the world.
@@ -71,20 +71,20 @@ const Project = () => {
             </div>
           </div>
 
-          <div class='btn-group' role='group' aria-label='Basic example'>
-            <span type='button' class='btn text-primary btn-lg'>
+          <div className='btn-group' role='group' aria-label='Basic example'>
+            <span type='button' className='btn text-primary btn-lg'>
               <i className='fab fa-react'></i>{' '}
               <span className='text-muted work-icons'>React.js</span>
             </span>
-            <span type='button' class='btn text-primary btn-lg'>
+            <span type='button' className='btn text-primary btn-lg'>
               <i className='fab fa-bootstrap'></i>{' '}
               <span className='text-muted work-icons'>Bootstrap</span>
             </span>
           </div>
           <br />
 
-          <div class='btn-group' role='group' aria-label='Basic example'>
-            <span type='button' class='btn text-primary btn-lg'>
+          <div className='btn-group' role='group' aria-label='Basic example'>
+            <span type='button' className='btn text-primary btn-lg'>
               <a
                 href='https://github.com/ahmaat19/covid-19-tracker'
                 target='blank'
@@ -94,7 +94,7 @@ const Project = () => {
               </a>
             </span>
 
-            <span type='button' class='btn text-primary btn-lg'>
+            <span type='button' className='btn text-primary btn-lg'>
               <a href='https://ahmaat19covid19.herokuapp.com/' target='blank'>
                 <i className='fas fa-external-link-alt'></i>{' '}
                 <span className='text-muted work-icons'>Live Demo</span>

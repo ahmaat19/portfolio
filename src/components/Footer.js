@@ -1,4 +1,4 @@
-import React from 'react'
+import React from 'react';
 
 const Footer = () => {
   return (
@@ -15,7 +15,7 @@ const Footer = () => {
       </div>
 
       <a
-        href='tell:+252615301507'
+        href='tel:+252615301507'
         className='btn btn-outline-primary my-3 py-3 px-4 rounded-pill'
       >
         <i className='fa fa-phone'></i> Say Hello
@@ -25,11 +25,11 @@ const Footer = () => {
         Designed & Built by Ahmed Ibrahim
       </p>
       <span className='float-left'>v1</span>
-      <a href='#' className='float-right'>
+      <a href='/#' className='float-right'>
         <i className='fa fa-arrow-circle-up footer-icon'></i>
       </a>
     </div>
-  )
-}
+  );
+};
 
-export default Footer
+export default Footer;
