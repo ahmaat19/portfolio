@@ -25,7 +25,7 @@ const Footer = () => {
         Designed & Built by Ahmed Ibrahim
       </p>
       <span className='float-left'>v1</span>
-      <a href='/portfolio' className='float-right'>
+      <a href='#' className='float-right'>
         <i className='fa fa-arrow-circle-up footer-icon'></i>
       </a>
     </div>
