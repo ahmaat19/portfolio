@@ -1,4 +1,4 @@
-import covid from './covid.gif'
+import covid from './covid.gif';
 
 const Project = () => {
   return (
@@ -55,7 +55,7 @@ const Project = () => {
         </div>
       </div>
 
-      <div className='row mb-5 pb-5'>
+      {/* <div className='row mb-5 pb-5'>
         <div className='col-lg-5 col-md-6 col-sm-12 col-12 text-right'>
           <h6 className='text-primary'>Featured Project</h6>
           <h5 className='text-light font-weight-bold'>COVID-19 Tracker</h5>
@@ -105,9 +105,9 @@ const Project = () => {
         <div className='col-lg-7 col-md-6 col-sm-12 col-12'>
           <img src={covid} alt='' className='card-img' />
         </div>
-      </div>
+      </div> */}
     </>
-  )
-}
+  );
+};
 
-export default Project
+export default Project;
