@@ -5,7 +5,9 @@ const Project = () => {
     <>
       <div className='row mb-5 pb-5'>
         <div className='col-lg-7 col-md-6 col-sm-12 col-12'>
-          <img src={covid} alt='' className='card-img' />
+          <a href='https://ahmaat19.github.io/covid-19-tracker/' target='blank'>
+            <img src={covid} alt='' className='card-img' />{' '}
+          </a>
         </div>
         <div className='col-lg-5 col-md-6 col-sm-12 col-12 text-right'>
           <h6 className='text-primary'>Featured Project</h6>
@@ -46,7 +48,10 @@ const Project = () => {
             </span>
 
             <span type='button' className='btn text-primary btn-lg'>
-              <a href='https://ahmaat19covid19.herokuapp.com/' target='blank'>
+              <a
+                href='https://ahmaat19.github.io/covid-19-tracker/'
+                target='blank'
+              >
                 <i className='fas fa-external-link-alt'></i>{' '}
                 <span className='text-muted work-icons'>Live Demo</span>
               </a>
@@ -95,7 +100,7 @@ const Project = () => {
             </span>
 
             <span type='button' className='btn text-primary btn-lg'>
-              <a href='https://ahmaat19covid19.herokuapp.com/' target='blank'>
+              <a href='https://ahmaat19.github.io/covid-19-tracker/' target='blank'>
                 <i className='fas fa-external-link-alt'></i>{' '}
                 <span className='text-muted work-icons'>Live Demo</span>
               </a>
