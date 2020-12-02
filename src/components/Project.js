@@ -3,7 +3,7 @@ import covid from './covid.gif';
 const Project = () => {
   return (
     <>
-      <div className='row mb-5 pb-5'>
+      <div className='row mb-5 pb-5 gy-3'>
         <div className='col-lg-7 col-md-6 col-sm-12 col-12'>
           <a href='https://ahmaat19.github.io/covid-19-tracker/' target='blank'>
             <img src={covid} alt='' className='card-img' />{' '}

@@ -72,6 +72,11 @@ body {
   background-color: #2b3e50;
 }
 
+.navbar-brand img {
+  background-color: #ffffff;
+  border-radius: 50%;
+}
+
 .footer-section .footer-title {
   color: #fff;
   /* font-size: 50px; */

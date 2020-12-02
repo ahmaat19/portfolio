@@ -1,4 +1,5 @@
 import React from 'react';
+import logo from './logo.png';
 
 const Header = () => {
   return (
@@ -6,13 +7,7 @@ const Header = () => {
       <nav className='navbar navbar-expand-lg navbar-primary  sticky-top py-2'>
         <div className='container'>
           <a className='navbar-brand' href='#'>
-            {/* <img
-              src='https://v5.getbootstrap.com/docs/5.0/assets/brand/bootstrap-logo.svg'
-              alt=''
-              width='30'
-              height='24'
-            /> */}
-            AHMED
+            <img src={logo} alt='' width='35px' height='35px' />
           </a>
           <button
             className='navbar-toggler'
