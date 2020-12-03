@@ -55,21 +55,26 @@ const Header = () => {
         </div>
       </nav>
 
-      <div className='hero-section container p-5'>
-        <h6 className='text-primary'>Hi, my name is</h6>
-        <h1 className='display-4'>Ahmed Ibrahim.</h1>
-        <h3 className='display-5'>I build things for the web.</h3>
-        <p>
-          I'm a software engineer based in Mogadishu specializing in building
-          (and occasionally designing) <br /> exceptional websites,
-          applications, and everything in between.
-        </p>
-        <a
-          href='mailto:ahmaat19@gmail.com'
-          className='btn btn-outline-primary my-5 py-3 px-4 rounded-pill'
-        >
-          Get In Touch
-        </a>
+      <div
+        className='d-flex align-items-center justify-content-center'
+        style={{ height: '100vh' }}
+      >
+        <div className='hero-section container px-5'>
+          <h6 className='text-primary'>Hi, my name is</h6>
+          <h1 className='display-4'>Ahmed Ibrahim.</h1>
+          <h3 className='display-5'>I build things for the web.</h3>
+          <p>
+            I'm a software engineer based in Mogadishu specializing in building
+            (and occasionally designing) <br /> exceptional websites,
+            applications, and everything in between.
+          </p>
+          <a
+            href='mailto:ahmaat19@gmail.com'
+            className='btn btn-outline-primary my-5 py-3 px-4 rounded-pill'
+          >
+            Get In Touch
+          </a>
+        </div>
       </div>
     </>
   );

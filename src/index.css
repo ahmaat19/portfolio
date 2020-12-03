@@ -16,12 +16,12 @@ body {
 .hero-section h1 {
   color: #fff;
   margin: 15px 0;
-  font-size: 70px;
+  font-size: calc(100% + 4vw + 4vh);
   font-weight: bolder;
 }
 .hero-section h3 {
   margin: 15px 0;
-  font-size: 65px;
+  font-size: calc(100% + 3vw + 3vh);
   font-weight: bolder;
 }
 .hero-section p {
@@ -81,6 +81,7 @@ body {
   color: #fff;
   /* font-size: 50px; */
   font-weight: bolder;
+  font-size: calc(100% + 2vw + 2vh);
 }
 .footer-section .footer-icon {
   font-size: 30px;
@@ -152,18 +153,4 @@ body {
 }
 .work-section img {
   border-radius: 0 20px 20px 20px;
-}
-
-@media only screen and (max-width: 780px) {
-  .hero-section h1 {
-    color: #fff;
-    margin: 15px 0;
-    font-size: 50px;
-    font-weight: bolder;
-  }
-  .hero-section h3 {
-    margin: 15px 0;
-    font-size: 45px;
-    font-weight: bolder;
-  }
 }
