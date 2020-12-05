@@ -83,8 +83,9 @@ body {
   font-weight: bolder;
   font-size: calc(100% + 2vw + 2vh);
 }
-.footer-section .footer-icon {
+.footer-icon {
   font-size: 30px;
+  margin-bottom: 10px;
 }
 
 .sticky-contact-left {
