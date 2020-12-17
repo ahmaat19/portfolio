@@ -10,8 +10,7 @@
 
       <meta
       name="description"
-      content="I'm Ahmed, a software engineer based in Mogadishu specializing in building (and occasionally designing) exceptional websites,
-      applications, and everything in between."
+      content="I'm Ahmed, a software engineer based in Mogadishu."
     />
 
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css" integrity="sha512-+4zCK9k+qNFUR5X+cKL9EIR+ZOhtIloNl9GIKS57V1MyNsYpYcUrUeQc9vNfzsWfV28IaLL3i96P9sdNyeRssA==" crossorigin="anonymous" />
@@ -20,13 +19,13 @@
 
     <link rel="stylesheet" href="style.css" />
 
-    <title>Ahmed</title>
+    <title>Ahmed Ibrahim</title>
   </head>
   <body style="color: #ffe3d8;">
     <!-- Navbar -->
-    <nav class="navbar navbar-expand-lg navbar-dark bg-transparent  sticky-top " >
+    <nav class="navbar navbar-expand-lg navbar-dark   sticky-top " >
       <div class="container">
-        <a class="navbar-brand" href="#"> <img src="./logo.png" class="bg-light rounded-pill" style="height: 50px;" alt=""> </a>
+        <a class="navbar-brand" href="#"> <img alt='Ahmed Ibrahim' src="./logo.png" class="bg-light rounded-pill" style="height: 50px;" alt=""> </a>
         <button
           class="navbar-toggler"
           type="button"
@@ -66,7 +65,7 @@
         <div class="col-12 col-lg-6 col-md-6 col-sm-12">
           <div class="text-box">
             <p class="fs-5 fw-light">Hi, my name is</p>
-            <h1 class="display-1 fw-bold">AHMAD</h1>
+            <p class="display-1 fw-bold title">AHMED</p>
             <h3 class="display-3">I build things for the web.</h3>
             <p class="fs-5 fw-light">
               I'm a software engineer based in Mogadishu specializing in
@@ -79,7 +78,7 @@
           </div>
         </div>
         <div class="col-12 col-lg-6 col-md-6 col-sm-12">
-          <img src="./programming.svg" class="card-img" />
+          <img alt='Ahmed Ibrahim' src="./programming.svg" class="card-img" />
         </div>
       </div>
     </div>
@@ -87,12 +86,12 @@
     <div class="container about  my-3" id="about">
         <div class="row">
             <div class="col-5">
-                <h1 class="display-3">ABOUT</h1>
+                <p class="display-3 title">ABOUT</p>
             </div>
         </div>
         <div class="row">
             <div class="col-5">
-          <img src="./about.svg" class="card-img" />
+          <img alt='Ahmed Ibrahim' src="./about.svg" class="card-img" />
         </div>
         <div class="col-12 col-lg-7 col-md-6 col-sm-12 about-text">
           <p class="fs-5 fw-light">
@@ -126,14 +125,14 @@
     <div class="container work my-3" id='work'> 
         <div class="row">
             <div class="col-5">
-                <h1 class="display-3">MY WORK</h1>
+                <p class="display-3 title">MY WORK</p>
             </div>
         </div>
 
         <div class="row mt-4 gy-5">
             <div class="col-12 col-lg-4 col-md-6 col-sm-6">
                 <div class="card" >
-                    <img src="./covid.gif" class="card-img-top" alt="...">
+                    <img alt='Ahmed Ibrahim' src="./covid.gif" class="card-img-top" alt="...">
                     <div class="card-body">
                         <h2 class="display-6 ">COVID-19 Tracker</h2> <hr>
                        
@@ -159,7 +158,7 @@
             </div>
             <div class="col-12 col-lg-4 col-md-6 col-sm-6">
                 <div class="card" >
-                    <img src="./Blood-Bank.gif" class="card-img-top" alt="...">
+                    <img alt='Ahmed Ibrahim' src="./Blood-Bank.gif" class="card-img-top" alt="...">
                     <div class="card-body">
                         <h2 class="display-6 ">Blood Bank Store</h2> <hr>
                        
@@ -186,7 +185,7 @@
             </div>
             <div class="col-12 col-lg-4 col-md-6 col-sm-6">
                 <div class="card" >
-                    <img src="./covid.gif" class="card-img-top" alt="...">
+                    <img alt='Ahmed Ibrahim' src="./covid.gif" class="card-img-top" alt="...">
                     <div class="card-body">
                         <h2 class="display-6 ">Digital Archive</h2> <hr>
                        
@@ -216,7 +215,7 @@
        <div class="container footer mb-5" id='contact'>
            <div class="row">
                <div class="col-6 col-md-6 col-sm-6 col-lg-4 mx-auto">
-                   <h1 class="display-5 fw-light">GET IN TOUCH</h1>
+                   <p class="display-5 fw-light title">GET IN TOUCH</p>
                    <div class="text-center">
                    <p class="fw-light  py-2">
                     Interested in working together? We should queue up a chat. I’ll buy the coffee.
@@ -243,5 +242,12 @@
        </div>
 
        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW" crossorigin="anonymous"></script>
+
+       <script type="text/javascript">
+        window.addEventListener('scroll', () => {
+          const nav = document.querySelector('.sticky-top')
+          nav.classList.toggle('sticky', window.scrollY > 0)
+        })
+      </script>
   </body>
 </html>

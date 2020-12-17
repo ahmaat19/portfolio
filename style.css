@@ -12,10 +12,14 @@ body {
   align-items: center;
 }
 
-.about h1,
-.work h1,
-.hero h1,
-.footer h1 {
+nav.sticky {
+  background: #0a043c;
+}
+
+.about .title,
+.work .title,
+.hero .title,
+.footer .title {
   border-style: solid;
   border-width: 0;
   border-left-width: 0.1px;
