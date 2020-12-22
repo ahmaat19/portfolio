@@ -1,5 +1,12 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;400&display=swap');
 
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+}
+
 body {
   background: #0a043c;
   font-family: 'Roboto', sans-serif;
@@ -10,6 +17,31 @@ body {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  position: relative;
+}
+.hero .imgBox {
+  width: 48%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.hero .imgBox img {
+  width: 100%;
+  transition: 1s;
+}
+.hero .imgBox img:hover {
+  transform: scale(1.1, 1.2);
+}
+.hero .textBox {
+  width: 48%;
+}
+
+.hero .btn {
+  transition: 0.5s;
+  font-size: 0.9rem;
+}
+.hero .btn:hover {
+  letter-spacing: 2px;
 }
 
 nav.sticky {
@@ -28,6 +60,14 @@ nav.sticky {
   padding-left: 10px;
   border-image: linear-gradient(#03506f, #bbbbbb, #ffe3d8) 1;
   text-shadow: 2px 2px #03506f;
+  transition: 1s;
+}
+
+.about .title:hover,
+.work .title:hover,
+.hero .title:hover,
+.footer .title:hover {
+  letter-spacing: 0.5rem;
 }
 
 .about,
@@ -37,18 +77,32 @@ nav.sticky {
   height: 100vh;
 }
 
+.about-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.about-content .textBox {
+  padding-left: 30px;
+}
+.about .imgBox img {
+  width: 100%;
+  transition: 1s;
+}
+.about .imgBox img:hover {
+  transform: scale(1.1, 1.2);
+}
+.about .icon {
+  width: 100%;
+  transition: 1s;
+}
+.about .icon:hover {
+  transform: scale(1.1, 1.2);
+}
+
 .card {
   background: #0a043c;
-  /* box-shadow: 2px 2px #03506f; */
-  box-shadow: 0 0.125rem 1rem #bbbbbb;
-  /* margin: 3% auto; */
-}
-.flush {
-  background: #0a043c;
-  color: olive;
-}
-ul {
-  background: #0a043c;
+  border: #bbbbbb solid 0.01rem;
 }
 
 .contact-number:hover {
@@ -56,8 +110,34 @@ ul {
 }
 
 @media screen and (max-width: 768px) {
-  img {
-    visibility: hidden;
-    position: absolute;
+  .hero .imgBox {
+    display: none;
   }
+  .hero .textBox {
+    width: 100%;
+  }
+  .about .imgBox {
+    display: none;
+    visibility: hidden;
+  }
+  .about .textBox {
+    width: 100%;
+  }
+  .footer {
+    width: 100%;
+  }
+}
+
+.footer {
+  display: flex;
+  margin: 20px auto;
+  justify-content: center;
+  align-items: center;
+}
+.footer .btn {
+  transition: 0.5s;
+  font-size: 0.9rem;
+}
+.footer .btn:hover {
+  letter-spacing: 2px;
 }
