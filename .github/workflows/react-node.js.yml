@@ -24,4 +24,4 @@ jobs:
         with:
           node-version: ${{ matrix.node-version }}
       - run: npm i
-      - run: pm2 restart --name portfolio npm -- start
+      - run: pm2 start --name portfolio npm -- restart
