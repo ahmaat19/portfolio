@@ -9,7 +9,7 @@ const Services = () => {
       <h2 className='text-center fw-bolder display-6 pt-3'>
         <kbd>SERVICE</kbd>
       </h2>
-      <div className='row gy-3 pt-3'>
+      <div className='row gy-3 pt-3' data-aos='fade-up'>
         <div className='col-md-3 mx-auto'>
           <div className='card text-center bg-transparent shadow-lg'>
             <img

@@ -1,4 +1,5 @@
 import profile from '../images/profile.svg'
+import logo from '../images/logo.svg'
 
 const Header = () => {
   return (
@@ -6,10 +7,7 @@ const Header = () => {
       <nav className='navbar navbar-expand-md navbar-light'>
         <div className='container'>
           <a className='navbar-brand' href='#'>
-            <img
-              src='https://seeklogo.com/images/T/the-avengers-logo-0BF397F78A-seeklogo.com.png'
-              alt=''
-            />
+            <img src={logo} alt='logo' />
           </a>
           <button
             className='navbar-toggler'
@@ -61,7 +59,7 @@ const Header = () => {
 
       <div className='container py-5'>
         <div className='row py-5'>
-          <div className='col-md-6 my-auto'>
+          <div className='col-md-6 my-auto' data-aos='fade-right'>
             <h1 className='fw-bolder display-3'>
               <kbd>AHMED IBRAHIM</kbd>
             </h1>
@@ -78,7 +76,7 @@ const Header = () => {
               </a>
             </div>
           </div>
-          <div className='col-md-6'>
+          <div className='col-md-6' data-aos='fade-left'>
             <img src={profile} alt='profile' className='img-fluid' />
           </div>
         </div>

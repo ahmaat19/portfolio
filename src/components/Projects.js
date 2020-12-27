@@ -4,7 +4,7 @@ const Projects = () => {
       <h2 className='text-center fw-bolder display-6 pt-3'>
         <kbd>RECENT WORK</kbd>
       </h2>
-      <div className='row g-4 pt-3'>
+      <div className='row g-4 pt-3' data-aos='fade-up'>
         <div className='col-md-4'>
           <div className='card text-center bg-transparent shadow-lg'>
             <img

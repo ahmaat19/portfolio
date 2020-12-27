@@ -4,7 +4,7 @@ const Contact = () => {
   return (
     <div className='container py-5' id='contact'>
       <hr />
-      <div className='row g-4 pt-3'>
+      <div className='row g-4 pt-3' data-aos='fade-up'>
         <div className='col-md-5 mx-auto text-center'>
           <p>Let's make something new, different great together.</p>
           <pre>Just Say Hello</pre>
