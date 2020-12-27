@@ -55,8 +55,12 @@ header.sticky nav {
 
 /* ------------------ service ---------------------- */
 .card {
-  /* background-color: #d6d6e3 !important; */
   border: none;
+  transition: 0.5s;
+}
+.card:hover {
+  border: none;
+  box-shadow: 0 0.4rem 1rem rgba(0, 0, 0, 0.175) !important;
 }
 #service .card img {
   width: 60px;
@@ -65,5 +69,18 @@ header.sticky nav {
 /* ------------------ contact ---------------------- */
 #contact a {
   text-decoration: none;
-  color: #111;
+  color: #212529;
+}
+
+/* ------------------ projects ---------------------- */
+#work a {
+  text-decoration: none;
+  color: #212529;
+}
+#work .card img {
+  padding: 20px;
+  transition: 0.5s;
+}
+#work .card img:hover {
+  padding: 0;
 }

@@ -1,3 +1,8 @@
+import covid from '../images/covid.png'
+import hr from '../images/hr.png'
+import cerid from '../images/cerid.png'
+import samtec from '../images/samtec.png'
+
 const Projects = () => {
   return (
     <div className='container py-5' id='work'>
@@ -5,109 +10,106 @@ const Projects = () => {
         <kbd>RECENT WORK</kbd>
       </h2>
       <div className='row g-4 pt-3' data-aos='fade-up'>
-        <div className='col-md-4'>
+        <div className='col-md-6'>
           <div className='card text-center bg-transparent shadow-lg'>
-            <img
-              src='https://cdn.searchenginejournal.com/wp-content/uploads/2019/12/5-ways-seo-web-design-go-together-5e2945dd5df37-760x400.png'
-              alt=''
-              className='img-fluid shadow-lg'
-            />
+            <a href='https://cerid.so' target='blank'>
+              <img src={cerid} alt='cerid' className='img-fluid' />
+            </a>
             <div className='card-body'>
               <div className='card-title'>
-                <kbd>Website</kbd>
+                <a href='https://cerid.so' target='blank'>
+                  <kbd>Website</kbd>{' '}
+                </a>
               </div>
-              <p className='card-text'>
-                Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+              <p className='card-text d-flex justify-content-around'>
+                <a href='https://cerid.so' target='blank'>
+                  <i class='fa fa-play-circle'></i> Live
+                </a>
+                <p>
+                  <i class='fa fa-code'></i> Private Source Code
+                </p>
               </p>
             </div>
           </div>
         </div>
 
-        <div className='col-md-4'>
+        <div className='col-md-6'>
           <div className='card text-center bg-transparent shadow-lg'>
-            <img
-              src='https://www.abrightclearweb.com/wp-content/uploads/2014/02/Responsive-Website-Design.png'
-              alt=''
-              className='img-fluid shadow-lg'
-            />
+            <a href='https://samtec.so' target='blank'>
+              <img src={samtec} alt='samtec' className='img-fluid' />
+            </a>
             <div className='card-body'>
               <div className='card-title'>
-                <kbd>Progressive Web Apps</kbd>
+                <a href='https://samtec.so' target='blank'>
+                  <kbd>Website</kbd>
+                </a>
               </div>
-              <p className='card-text'>
-                Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+              <p className='card-text d-flex justify-content-around'>
+                <a href='https://samtec.so' target='blank'>
+                  <i class='fa fa-play-circle'></i> Live
+                </a>
+                <p>
+                  <i class='fa fa-code'></i> Private Source Code
+                </p>
               </p>
             </div>
           </div>
         </div>
 
-        <div className='col-md-4'>
+        <div className='col-md-6'>
           <div className='card text-center bg-transparent shadow-lg'>
-            <img
-              src='https://thecoders.vn/wp-content/uploads/2015/10/What-Can-You-Expect-From-Ecommerce-Website-Design.png'
-              alt=''
-              className='img-fluid shadow-lg'
-            />
+            <img src={hr} alt='human resource' className='img-fluid' />
             <div className='card-body'>
               <div className='card-title'>
-                <kbd>Progressive Web Apps</kbd>
+                <kbd>MERN-Stack HR System</kbd>
               </div>
-              <p className='card-text'>
-                Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+              <p className='card-text d-flex justify-content-around'>
+                <p>
+                  <i class='fa fa-play-circle'></i> Offline
+                </p>
+                <a
+                  href='https://github.com/ahmaat19/MERN-Stack-Leave-Request'
+                  target='blank'
+                >
+                  <i class='fa fa-code'></i> Source Code
+                </a>
               </p>
             </div>
           </div>
         </div>
 
-        <div className='col-md-4'>
+        <div className='col-md-6'>
           <div className='card text-center bg-transparent shadow-lg'>
-            <img
-              src='https://www.rishabhsoft.com/wp-content/uploads/2019/11/Ecommerce-Website-Design-Solution.png'
-              alt=''
-              className='img-fluid shadow-lg'
-            />
+            <a
+              href='https://ahmaat19.github.io/covid-19-tracker/'
+              target='blank'
+            >
+              <img src={covid} alt='covid' className='img-fluid' />
+            </a>
             <div className='card-body'>
               <div className='card-title'>
-                <kbd>Progressive Web Apps</kbd>
+                <a
+                  href='https://ahmaat19.github.io/covid-19-tracker/'
+                  target='blank'
+                >
+                  <kbd>React COVID-19 Tracker</kbd>
+                </a>
               </div>
-              <p className='card-text'>
-                Lorem ipsum, dolor sit amet consectetur adipisicing elit.
-              </p>
-            </div>
-          </div>
-        </div>
-
-        <div className='col-md-4'>
-          <div className='card text-center bg-transparent shadow-lg'>
-            <img
-              src='https://www.perfecto.io/sites/perfecto/files/image/2019-05/DiffScreens-1024x614.jpg'
-              alt=''
-              className='img-fluid shadow-lg'
-            />
-            <div className='card-body'>
-              <div className='card-title'>
-                <kbd>Progressive Web Apps</kbd>
-              </div>
-              <p className='card-text'>
-                Lorem ipsum, dolor sit amet consectetur adipisicing elit.
-              </p>
-            </div>
-          </div>
-        </div>
-
-        <div className='col-md-4'>
-          <div className='card text-center bg-transparent shadow-lg'>
-            <img
-              src=' https://bizigndesign.com/wp-content/uploads/2014/07/responsiveweb.jpg'
-              alt=''
-              className='img-fluid shadow-lg'
-            />
-            <div className='card-body'>
-              <div className='card-title'>
-                <kbd>Progressive Web Apps</kbd>
-              </div>
-              <p className='card-text'>
-                Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+              <p className='card-text d-flex justify-content-around'>
+                <a
+                  href='https://ahmaat19.github.io/covid-19-tracker/'
+                  target='blank'
+                >
+                  <i class='fa fa-play-circle'></i> Live
+                </a>
+                <p>
+                  <a
+                    href='https://github.com/ahmaat19/covid-19-tracker'
+                    target='blank'
+                  >
+                    <i class='fa fa-code'></i> Source Code
+                  </a>
+                </p>
               </p>
             </div>
           </div>
