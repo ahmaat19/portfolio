@@ -17,7 +17,7 @@ function App() {
   useEffect(() => {
     ReactGA.initialize('G-9F994THEH3')
     ReactGA.pageview(window.location.pathname + window.location.search)
-  })
+  }, [])
   return (
     <>
       <Header />
