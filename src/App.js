@@ -1,7 +1,7 @@
 import { useEffect } from 'react'
 import Aos from 'aos'
 import 'aos/dist/aos.css'
-import ReactGa from 'react-g'
+import ReactGA from 'react-ga'
 
 import About from './components/About'
 import Contact from './components/Contact'
@@ -12,8 +12,8 @@ import Services from './components/Services'
 
 function App() {
   useEffect(() => {
-    ReactGa.initialize('G-FFRN0N1PP2')
-    ReactGa.pageview(window.location.pathname + window.location.search)
+    ReactGA.initialize('G-FFRN0N1PP2')
+    ReactGA.pageview(window.location.pathname + window.location.search)
 
     Aos.init({ offset: 200, duration: 600, easing: 'ease-in-sine', delay: 100 })
   })
