@@ -56,11 +56,13 @@ header.sticky nav {
 /* ------------------ service ---------------------- */
 .card {
   border: none;
-  transition: 0.5s;
+  transition: 0.5s ease-in-out;
+  top: 0;
 }
 .card:hover {
   border: none;
   box-shadow: 0 0.4rem 1rem rgba(0, 0, 0, 0.175) !important;
+  top: -10px;
 }
 #service .card img {
   width: 60px;
@@ -70,6 +72,13 @@ header.sticky nav {
 #contact a {
   text-decoration: none;
   color: #212529;
+}
+#contact .social-links i {
+  transition: 0.5s ease-in-out;
+  font-size: 25px;
+}
+#contact .social-links i:hover {
+  font-size: 35px;
 }
 
 /* ------------------ projects ---------------------- */

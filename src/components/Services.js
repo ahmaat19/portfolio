@@ -11,7 +11,7 @@ const Services = () => {
       </h2>
       <div className='row gy-3 pt-3' data-aos='fade-up'>
         <div className='col-md-3 mx-auto'>
-          <div className='card text-center bg-transparent'>
+          <div className='card text-center bg-transparent '>
             <img
               src={website}
               className='card-img-top img-fluid mx-auto pt-2'
@@ -25,7 +25,7 @@ const Services = () => {
           </div>
         </div>
         <div className='col-md-3 mx-auto'>
-          <div className='card text-center bg-transparent'>
+          <div className='card text-center bg-transparent '>
             <img
               src={application}
               className='card-img-top img-fluid mx-auto pt-2'
@@ -39,7 +39,7 @@ const Services = () => {
           </div>
         </div>
         <div className='col-md-3 mx-auto'>
-          <div className='card text-center bg-transparent'>
+          <div className='card text-center bg-transparent '>
             <img
               src={portal}
               className='card-img-top img-fluid mx-auto pt-2'
@@ -53,7 +53,7 @@ const Services = () => {
           </div>
         </div>
         <div className='col-md-3 mx-auto'>
-          <div className='card text-center bg-transparent'>
+          <div className='card text-center bg-transparent '>
             <img
               src={pwa}
               className='card-img-top img-fluid mx-auto pt-2'
