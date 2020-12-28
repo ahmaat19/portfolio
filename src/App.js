@@ -15,7 +15,7 @@ function App() {
     Aos.init({ offset: 200, duration: 600, easing: 'ease-in-sine', delay: 100 })
   })
   useEffect(() => {
-    ReactGA.initialize('G-9F994THEH3')
+    ReactGA.initialize('UA-186129874-1')
     ReactGA.pageview(window.location.pathname + window.location.search)
   }, [])
   return (
