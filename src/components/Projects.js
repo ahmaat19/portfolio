@@ -6,8 +6,11 @@ import samtec from '../images/samtec.png'
 const Projects = () => {
   return (
     <div className='container py-5' id='work'>
-      <h2 className='text-center fw-bolder display-6 pt-3'>
-        <kbd>RECENT WORK</kbd>
+      <h2
+        className='text-center fw-bolder display-6 pt-3'
+        data-aos='zoom-in-up'
+      >
+        <kbd data-aos='zoom-in-up'>RECENT WORK</kbd>
       </h2>
       <div className='row g-4 pt-3' data-aos='fade-up'>
         <div className='col-md-6'>

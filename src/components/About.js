@@ -7,8 +7,11 @@ import about from '../images/about.svg'
 const About = () => {
   return (
     <div className='container py-5' id='about'>
-      <h2 className='text-center fw-bolder display-6 pt-3' data-aos='fade-up'>
-        <kbd>ABOUT ME</kbd>
+      <h2
+        className='text-center fw-bolder display-6 pt-3'
+        data-aos='zoom-in-up'
+      >
+        <kbd data-aos='zoom-in-up'>ABOUT ME</kbd>
       </h2>
       <div className='row'>
         <div className='col-md-5 col-12' data-aos='fade-up'>

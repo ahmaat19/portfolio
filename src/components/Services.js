@@ -6,8 +6,11 @@ import website from '../images/website.svg'
 const Services = () => {
   return (
     <div className='container py-5' id='service'>
-      <h2 className='text-center fw-bolder display-6 pt-3'>
-        <kbd>SERVICE</kbd>
+      <h2
+        className='text-center fw-bolder display-6 pt-3'
+        data-aos='zoom-in-up'
+      >
+        <kbd data-aos='zoom-in-up'>SERVICE</kbd>
       </h2>
       <div className='row gy-3 pt-3' data-aos='fade-up'>
         <div className='col-md-3 mx-auto'>
