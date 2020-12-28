@@ -12,10 +12,11 @@ import Services from './components/Services'
 
 function App() {
   useEffect(() => {
-    ReactGA.initialize('G-FFRN0N1PP2')
-    ReactGA.pageview(window.location.pathname + window.location.search)
-
     Aos.init({ offset: 200, duration: 600, easing: 'ease-in-sine', delay: 100 })
+  })
+  useEffect(() => {
+    ReactGA.initialize('G-9F994THEH3')
+    ReactGA.pageview(window.location.pathname + window.location.search)
   })
   return (
     <>
