@@ -6,7 +6,12 @@ import beydan from '../images/beydan.PNG'
 
 const Projects = () => {
   return (
-    <div className='container py-5' id='work'>
+    <div
+      className='container py-5'
+      id='work'
+      data-aos='fade-left'
+      data-aos-duration='2000'
+    >
       <h2 className='text-center fw-bolder display-6 pt-3'>
         <kbd>RECENT WORK</kbd>
       </h2>

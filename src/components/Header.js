@@ -57,7 +57,11 @@ const Header = () => {
         </div>
       </nav>
 
-      <div className='container py-5'>
+      <div
+        className='container py-5'
+        data-aos='fade-left'
+        data-aos-duration='2000'
+      >
         <div className='row py-5'>
           <div className='col-md-6 my-auto'>
             <h1 className='fw-bolder display-3'>

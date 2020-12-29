@@ -5,7 +5,12 @@ import website from '../images/website.svg'
 
 const Services = () => {
   return (
-    <div className='container py-5' id='service'>
+    <div
+      className='container py-5'
+      id='service'
+      data-aos='fade-right'
+      data-aos-duration='2000'
+    >
       <h2 className='text-center fw-bolder display-6 pt-3'>
         <kbd>SERVICE</kbd>
       </h2>

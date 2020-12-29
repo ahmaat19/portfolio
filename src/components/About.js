@@ -6,7 +6,12 @@ import about from '../images/about.svg'
 
 const About = () => {
   return (
-    <div className='container py-5' id='about'>
+    <div
+      className='container py-5'
+      id='about'
+      data-aos='fade-left'
+      data-aos-duration='2000'
+    >
       <h2 className='text-center fw-bolder display-6 pt-3'>
         <kbd>ABOUT ME</kbd>
       </h2>

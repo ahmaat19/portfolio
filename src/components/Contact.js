@@ -2,7 +2,12 @@ import React from 'react'
 
 const Contact = () => {
   return (
-    <div className='container py-5' id='contact'>
+    <div
+      className='container py-5'
+      id='contact'
+      data-aos='fade-up'
+      data-aos-duration='2000'
+    >
       <hr />
       <div className='row g-4 pt-3'>
         <div className='col-md-5 mx-auto text-center'>
