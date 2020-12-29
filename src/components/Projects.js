@@ -2,19 +2,51 @@ import covid from '../images/covid.png'
 import hr from '../images/hr.png'
 import cerid from '../images/cerid.png'
 import samtec from '../images/samtec.png'
+import beydan from '../images/beydan.PNG'
 
 const Projects = () => {
   return (
     <div className='container py-5' id='work'>
-      <h2
-        className='text-center fw-bolder display-6 pt-3'
-        data-aos='zoom-in-up'
-      >
-        <kbd data-aos='zoom-in-up'>RECENT WORK</kbd>
+      <h2 className='text-center fw-bolder display-6 pt-3'>
+        <kbd>RECENT WORK</kbd>
       </h2>
-      <div className='row g-4 pt-3' data-aos='fade-up'>
-        <div className='col-md-6'>
-          <div className='card text-center bg-transparent shadow-lg'>
+      <div className='row g-4 pt-3'>
+        <div className='col-md-4'>
+          <div className='p-4 card text-center bg-transparent'>
+            <a href='https://nifty-bassi-e84db9.netlify.app/' target='blank'>
+              <img src={beydan} alt='cerid' className='img-fluid' />
+            </a>
+            <div className='card-body'>
+              <div className='card-title'>
+                <a
+                  href='https://nifty-bassi-e84db9.netlify.app/'
+                  target='blank'
+                >
+                  <kbd>React Coffee Shop Website</kbd>{' '}
+                </a>
+              </div>
+              <p className='card-text d-flex justify-content-around'>
+                <a
+                  href='https://nifty-bassi-e84db9.netlify.app/'
+                  target='blank'
+                >
+                  <i class='fa fa-play-circle'></i> Live
+                </a>
+                <p>
+                  <a
+                    href='https://github.com/ahmaat19/beydan-coffee-shop'
+                    target='blank'
+                  >
+                    <i class='fa fa-code'></i> Source Code
+                  </a>
+                </p>
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <div className='col-md-4'>
+          <div className='p-4 card text-center bg-transparent'>
             <a href='https://cerid.so' target='blank'>
               <img src={cerid} alt='cerid' className='img-fluid' />
             </a>
@@ -29,15 +61,15 @@ const Projects = () => {
                   <i class='fa fa-play-circle'></i> Live
                 </a>
                 <p>
-                  <i class='fa fa-code'></i> Private Source Code
+                  <i class='fa fa-code'></i> Source Code
                 </p>
               </p>
             </div>
           </div>
         </div>
 
-        <div className='col-md-6'>
-          <div className='card text-center bg-transparent shadow-lg'>
+        <div className='col-md-4'>
+          <div className='p-4 card text-center bg-transparent'>
             <a href='https://samtec.so' target='blank'>
               <img src={samtec} alt='samtec' className='img-fluid' />
             </a>
@@ -59,8 +91,8 @@ const Projects = () => {
           </div>
         </div>
 
-        <div className='col-md-6'>
-          <div className='card text-center bg-transparent shadow-lg'>
+        <div className='col-md-4'>
+          <div className='p-4 card text-center bg-transparent'>
             <img src={hr} alt='human resource' className='img-fluid' />
             <div className='card-body'>
               <div className='card-title'>
@@ -81,8 +113,8 @@ const Projects = () => {
           </div>
         </div>
 
-        <div className='col-md-6'>
-          <div className='card text-center bg-transparent shadow-lg'>
+        <div className='col-md-4'>
+          <div className='p-4 card text-center bg-transparent'>
             <a
               href='https://ahmaat19.github.io/covid-19-tracker/'
               target='blank'

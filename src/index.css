@@ -86,10 +86,9 @@ header.sticky nav {
   text-decoration: none;
   color: #212529;
 }
-#work .card img {
-  padding: 20px;
+#work .card {
   transition: 0.5s;
 }
 #work .card img:hover {
-  padding: 0;
+  box-shadow: 0 0.4rem 1rem rgba(0, 0, 0, 0.175) !important;
 }

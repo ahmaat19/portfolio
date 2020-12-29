@@ -7,17 +7,14 @@ import about from '../images/about.svg'
 const About = () => {
   return (
     <div className='container py-5' id='about'>
-      <h2
-        className='text-center fw-bolder display-6 pt-3'
-        data-aos='zoom-in-up'
-      >
-        <kbd data-aos='zoom-in-up'>ABOUT ME</kbd>
+      <h2 className='text-center fw-bolder display-6 pt-3'>
+        <kbd>ABOUT ME</kbd>
       </h2>
       <div className='row'>
-        <div className='col-md-5 col-12' data-aos='fade-up'>
+        <div className='col-md-5 col-12'>
           <img src={about} alt='about-me' className='img-fluid' />
         </div>
-        <div className='col-md-6 my-auto col-10' data-aos='fade-up'>
+        <div className='col-md-6 my-auto col-10'>
           <p>
             <p>
               Hello! I'm Ahmed, a full stack web developer based in Mogadishu.
@@ -39,7 +36,7 @@ const About = () => {
             </p>
           </p>
         </div>
-        <div className='col-md-1 my-auto col-2' data-aos='fade-up'>
+        <div className='col-md-1 my-auto col-2'>
           <div className='social-links d-flex flex-column'>
             <img
               src={node}
