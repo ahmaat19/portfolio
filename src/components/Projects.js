@@ -18,13 +18,13 @@ const Projects = () => {
       <div className='row g-4 pt-3'>
         <div className='col-md-4'>
           <div className='p-4 card text-center bg-transparent'>
-            <a href='https://nifty-bassi-e84db9.netlify.app/' target='blank'>
+            <a href='https://beydan.netlify.app/' target='blank'>
               <img src={beydan} alt='cerid' className='img-fluid' />
             </a>
             <div className='card-body'>
               <div className='card-title'>
                 <a
-                  href='https://nifty-bassi-e84db9.netlify.app/'
+                  href='https://beydan.netlify.app/'
                   target='blank'
                 >
                   <kbd>React Coffee Shop Website</kbd>{' '}
@@ -32,7 +32,7 @@ const Projects = () => {
               </div>
               <p className='card-text d-flex justify-content-around'>
                 <a
-                  href='https://nifty-bassi-e84db9.netlify.app/'
+                  href='https://beydan.netlify.app/'
                   target='blank'
                 >
                   <i class='fa fa-play-circle'></i> Live
