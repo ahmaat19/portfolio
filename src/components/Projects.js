@@ -3,6 +3,7 @@ import hr from '../images/hr.png'
 import cerid from '../images/cerid.png'
 import samtec from '../images/samtec.png'
 import beydan from '../images/beydan.PNG'
+import sada from '../images/sada.PNG'
 
 const Projects = () => {
   return (
@@ -23,18 +24,12 @@ const Projects = () => {
             </a>
             <div className='card-body'>
               <div className='card-title'>
-                <a
-                  href='https://beydan.netlify.app/'
-                  target='blank'
-                >
+                <a href='https://beydan.netlify.app/' target='blank'>
                   <kbd>React Coffee Shop Website</kbd>{' '}
                 </a>
               </div>
               <p className='card-text d-flex justify-content-around'>
-                <a
-                  href='https://beydan.netlify.app/'
-                  target='blank'
-                >
+                <a href='https://beydan.netlify.app/' target='blank'>
                   <i class='fa fa-play-circle'></i> Live
                 </a>
                 <p>
@@ -42,6 +37,31 @@ const Projects = () => {
                     href='https://github.com/ahmaat19/beydan-coffee-shop'
                     target='blank'
                   >
+                    <i class='fa fa-code'></i> Source Code
+                  </a>
+                </p>
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <div className='col-md-4'>
+          <div className='p-4 card text-center bg-transparent'>
+            <a href='https://sadasomalia.netlify.app/' target='blank'>
+              <img src={sada} alt='cerid' className='img-fluid' />
+            </a>
+            <div className='card-body'>
+              <div className='card-title'>
+                <a href='https://sadasomalia.netlify.app/' target='blank'>
+                  <kbd>React Fast Food Website</kbd>{' '}
+                </a>
+              </div>
+              <p className='card-text d-flex justify-content-around'>
+                <a href='https://sadasomalia.netlify.app/' target='blank'>
+                  <i class='fa fa-play-circle'></i> Live
+                </a>
+                <p>
+                  <a href='https://github.com/ahmaat19/sada' target='blank'>
                     <i class='fa fa-code'></i> Source Code
                   </a>
                 </p>
