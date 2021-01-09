@@ -30,16 +30,15 @@ const Projects = () => {
               </div>
               <p className='card-text d-flex justify-content-around'>
                 <a href='https://beydan.netlify.app/' target='blank'>
-                  <i class='fa fa-play-circle'></i> Live
+                  <i className='fa fa-play-circle'></i> Live
                 </a>
-                <p>
-                  <a
-                    href='https://github.com/ahmaat19/beydan-coffee-shop'
-                    target='blank'
-                  >
-                    <i class='fa fa-code'></i> Source Code
-                  </a>
-                </p>
+
+                <a
+                  href='https://github.com/ahmaat19/beydan-coffee-shop'
+                  target='blank'
+                >
+                  <i className='fa fa-code'></i> Source Code
+                </a>
               </p>
             </div>
           </div>
@@ -58,13 +57,12 @@ const Projects = () => {
               </div>
               <p className='card-text d-flex justify-content-around'>
                 <a href='https://sadasomalia.netlify.app/' target='blank'>
-                  <i class='fa fa-play-circle'></i> Live
+                  <i className='fa fa-play-circle'></i> Live
                 </a>
-                <p>
-                  <a href='https://github.com/ahmaat19/sada' target='blank'>
-                    <i class='fa fa-code'></i> Source Code
-                  </a>
-                </p>
+
+                <a href='https://github.com/ahmaat19/sada' target='blank'>
+                  <i className='fa fa-code'></i> Source Code
+                </a>
               </p>
             </div>
           </div>
@@ -83,11 +81,9 @@ const Projects = () => {
               </div>
               <p className='card-text d-flex justify-content-around'>
                 <a href='https://cerid.so' target='blank'>
-                  <i class='fa fa-play-circle'></i> Live
+                  <i className='fa fa-play-circle'></i> Live
                 </a>
-                <p>
-                  <i class='fa fa-code'></i> Source Code
-                </p>
+                <i className='fa fa-code'></i> Source Code
               </p>
             </div>
           </div>
@@ -106,11 +102,9 @@ const Projects = () => {
               </div>
               <p className='card-text d-flex justify-content-around'>
                 <a href='https://samtec.so' target='blank'>
-                  <i class='fa fa-play-circle'></i> Live
+                  <i className='fa fa-play-circle'></i> Live
                 </a>
-                <p>
-                  <i class='fa fa-code'></i> Private Source Code
-                </p>
+                <i className='fa fa-code'></i> Private Source Code
               </p>
             </div>
           </div>
@@ -124,14 +118,12 @@ const Projects = () => {
                 <kbd>MERN-Stack HR System</kbd>
               </div>
               <p className='card-text d-flex justify-content-around'>
-                <p>
-                  <i class='fa fa-play-circle'></i> Offline
-                </p>
+                <i className='fa fa-play-circle'></i> Offline
                 <a
                   href='https://github.com/ahmaat19/MERN-Stack-Leave-Request'
                   target='blank'
                 >
-                  <i class='fa fa-code'></i> Source Code
+                  <i className='fa fa-code'></i> Source Code
                 </a>
               </p>
             </div>
@@ -160,16 +152,15 @@ const Projects = () => {
                   href='https://ahmaat19.github.io/covid-19-tracker/'
                   target='blank'
                 >
-                  <i class='fa fa-play-circle'></i> Live
+                  <i className='fa fa-play-circle'></i> Live
                 </a>
-                <p>
-                  <a
-                    href='https://github.com/ahmaat19/covid-19-tracker'
-                    target='blank'
-                  >
-                    <i class='fa fa-code'></i> Source Code
-                  </a>
-                </p>
+
+                <a
+                  href='https://github.com/ahmaat19/covid-19-tracker'
+                  target='blank'
+                >
+                  <i className='fa fa-code'></i> Source Code
+                </a>
               </p>
             </div>
           </div>

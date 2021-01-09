@@ -21,24 +21,20 @@ const About = () => {
         </div>
         <div className='col-md-6 my-auto col-10'>
           <p>
-            <p>
-              Hello! I'm Ahmed, a full stack web developer based in Mogadishu.
-            </p>
-            <p>
-              I enjoy creating things that live on the internet, whether that be
-              websites, applications, or anything in between. My goal is to
-              always build products that provide pixel-perfect, performance
-              experiences.
-            </p>
-            <p>
-              Shortly after graduated University, I started freelancing on a
-              wide variety of interesting and meaningful projects on a daily
-              basis.
-            </p>
-            <p>
-              At the right side are a few technologies I've been working with
-              recently:
-            </p>
+            Hello! I'm Ahmed, a full stack web developer based in Mogadishu.
+          </p>
+          <p>
+            I enjoy creating things that live on the internet, whether that be
+            websites, applications, or anything in between. My goal is to always
+            build products that provide pixel-perfect, performance experiences.
+          </p>
+          <p>
+            Shortly after graduated University, I started freelancing on a wide
+            variety of interesting and meaningful projects on a daily basis.
+          </p>
+          <p>
+            At the right side are a few technologies I've been working with
+            recently:
           </p>
         </div>
         <div className='col-md-1 my-auto col-2'>
